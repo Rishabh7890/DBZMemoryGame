@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "./images/",
+    "name": "Goku",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "./images/",
+    "name": "Vegeta",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "./images/",
+    "name": "Trunks",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "./images/",
+    "name": "Gohan",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "./images/",
+    "name": "Majin Buu",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "./images/",
+    "name": "Goten",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "./images/",
+    "name": "Krillin",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "./images/",
+    "name": "Frieza",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "./images/",
+    "name": "Cell",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "image": "./images/",
+    "name": "Vegito",
+    "clicked": false
+  }
+]
