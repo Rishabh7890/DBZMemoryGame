@@ -44,5 +44,14 @@ class Game extends Component {
     });
   };
 
-  
+  handleIncorrectPick = cardInfo => {
+    const shuffled = cardInfo.sort(() => 0.5 - Math.random());
+
+    shuffled.forEach(card => (card.clicked = false));
+
+    this.setState({
+      cardInfo: shuffled,
+      currentScore: 0
+    });
+  };
 }
