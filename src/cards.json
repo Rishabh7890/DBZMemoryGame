@@ -1,61 +1,61 @@
 [
   {
     "id": 1,
-    "image": "./images/",
+    "image": "./images/goku.png",
     "name": "Goku",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "./images/",
+    "image": "./images/vegeta.png",
     "name": "Vegeta",
     "clicked": false
   },
   {
     "id": 3,
-    "image": "./images/",
+    "image": "./images/trunks.png",
     "name": "Trunks",
     "clicked": false
   },
   {
     "id": 4,
-    "image": "./images/",
-    "name": "Gohan",
+    "image": "./images/piccolo.png",
+    "name": "Piccolo",
     "clicked": false
   },
   {
     "id": 5,
-    "image": "./images/",
+    "image": "./images/buu.png",
     "name": "Majin Buu",
     "clicked": false
   },
   {
     "id": 6,
-    "image": "./images/",
-    "name": "Goten",
+    "image": "./images/broly.png",
+    "name": "Broly",
     "clicked": false
   },
   {
     "id": 7,
-    "image": "./images/",
+    "image": "./images/krillin.png",
     "name": "Krillin",
     "clicked": false
   },
   {
     "id": 8,
-    "image": "./images/",
+    "image": "./images/frieza.png",
     "name": "Frieza",
     "clicked": false
   },
   {
     "id": 9,
-    "image": "./images/",
+    "image": "./images/cell.png",
     "name": "Cell",
     "clicked": false
   },
   {
     "id": 10,
-    "image": "./images/",
+    "image": "./images/vegito.png",
     "name": "Vegito",
     "clicked": false
   }
