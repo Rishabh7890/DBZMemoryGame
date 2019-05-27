@@ -59,9 +59,9 @@ class Game extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-dark bg-danger d-flex justify-space-between">
+        <nav className="navbar navbar-light bg-warning d-flex justify-space-between">
           <span className="navbar-brand mb-0">Clicky Game</span>
-          <span className="scoreInfo text-light">
+          <span className="scoreInfo text-dark">
             Current Score: {this.state.currentScore} || Your Highest Score:{" "}
             {this.state.highScore}
           </span>
