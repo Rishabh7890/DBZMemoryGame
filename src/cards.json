@@ -58,5 +58,53 @@
     "image": "./images/vegito.png",
     "name": "Vegito",
     "clicked": false
+  },
+  {
+    "id": 11,
+    "image": "./images/beerus.png",
+    "name": "Beerus",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "image": "./images/whis.png",
+    "name": "Whis",
+    "clicked": false
+  },
+  {
+    "id": 13,
+    "image": "./images/nappa.png",
+    "name": "Nappa",
+    "clicked": false
+  },
+  {
+    "id": 14,
+    "image": "./images/raditz.png",
+    "name": "Raditz",
+    "clicked": false
+  },
+  {
+    "id": 15,
+    "image": "./images/kai.png",
+    "name": "King Kai",
+    "clicked": false
+  },
+  {
+    "id": 16,
+    "image": "./images/jiren.png",
+    "name": "Jiren",
+    "clicked": false
+  },
+  {
+    "id": 17,
+    "image": "./images/gogeta.png",
+    "name": "Gogeta",
+    "clicked": false
+  },
+  {
+    "id": 18,
+    "image": "./images/17.png",
+    "name": "17",
+    "clicked": false
   }
 ]
