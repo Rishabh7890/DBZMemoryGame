@@ -54,4 +54,42 @@ class Game extends Component {
       currentScore: 0
     });
   };
+
+  render() {
+    return (
+      <React.Fragment>
+        <nav className="navbar navbar-dark bg-dark d-flex justify-space-between">
+          <span className="navbar-brand mb-0">Clicky Game</span>
+          <span className="scoreInfo text-light">
+            Current Score: {this.state.currentScore} || Your Highest Score: {this.state.highScore}
+          </span>
+        </nav>
+        <div className="jumbotron jumbotron-fluid bg-warning text-dark text-center">
+          <h1>Dragonball Z Memory Clicky Game</h1>
+          <p>Click on a card to get started. Don't click on the same card twice or you'll lose!</p>
+        </div>
+        <div className="container-fluid">
+          <div className="row align-items-center justify-content-between">
+            
+            {/* print out cards here */}
+
+            {this.state.cardInfo.map(card => {
+              return (
+                <div className="col-12 col-sm-3 col-md-2" key={card.id}>
+                  <img
+                    src={card.image}
+                    alt={card.name}
+                    className="img-fluid img-thumbnail rounded"
+                    onClick={() => this.handleClick(card.id)}
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </React.Fragment>
+    );
+  }
 }
+
+export default Game;
