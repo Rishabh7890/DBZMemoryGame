@@ -65,8 +65,8 @@ class Game extends Component {
           </span>
         </nav>
         <div className="jumbotron jumbotron-fluid bg-warning text-dark text-center">
-          <h1>Dragonball Z Memory Clicky Game</h1>
-          <p>Click on a card to get started. Don't click on the same card twice or you'll lose!</p>
+          <h1> <img src="../images/dragonball.png" alt="db"/> Dragonball Z Memory Clicky Game</h1>
+          <p>Click on a card to start playing! Don't click on the same card twice or you'll lose!</p>
         </div>
         <div className="container-fluid">
           <div className="row align-items-center justify-content-between">
