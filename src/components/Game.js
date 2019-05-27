@@ -14,26 +14,27 @@ class Game extends Component {
     const cardInfo = [...this.state.cardInfo];
 
     cardInfo.forEach(card => {
-      if(card.id === card.id) {
-        if(!card.clicked) {
+      if (card.id === cardId) {
+        if (!card.clicked) {
           isCorrect = true;
           card.clicked = true;
         }
       }
     });
 
-    isCorrect ? this.handleCorrectPick(cardInfo) : this.handleIncorrectPick(cardInfo);
+    isCorrect
+      ? this.handleCorrectPick(cardInfo)
+      : this.handleIncorrectPick(cardInfo);
   };
 
   handleCorrectPick = cardInfo => {
-
     const shuffled = cardInfo.sort(() => 0.5 - Math.random());
 
     const currentScore = this.state.currentScore + 1;
 
     var highScore = this.state.highScore;
 
-    if(currentScore > highScore) {
+    if (currentScore > highScore) {
       highScore = currentScore;
     }
 
@@ -58,19 +59,26 @@ class Game extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-dark bg-dark d-flex justify-space-between">
+        <nav className="navbar navbar-dark bg-danger d-flex justify-space-between">
           <span className="navbar-brand mb-0">Clicky Game</span>
           <span className="scoreInfo text-light">
-            Current Score: {this.state.currentScore} || Your Highest Score: {this.state.highScore}
+            Current Score: {this.state.currentScore} || Your Highest Score:{" "}
+            {this.state.highScore}
           </span>
         </nav>
-        <div className="jumbotron jumbotron-fluid bg-warning text-dark text-center">
-          <h1> <img src="../images/dragonball.png" alt="db"/> Dragonball Z Memory Clicky Game</h1>
-          <p>Click on a card to start playing! Don't click on the same card twice or you'll lose!</p>
+        <div className="jumbotron jumbotron-fluid bg-dark text-light text-center">
+          <h1>
+            {" "}
+            <img src="../images/dragonball.png" alt="db" /> Dragonball Z Memory
+            Clicky Game
+          </h1>
+          <p>
+            Click on a card to start playing! Don't click on the same card twice
+            or you'll lose!
+          </p>
         </div>
         <div className="container-fluid">
           <div className="row align-items-center justify-content-between">
-            
             {/* print out cards here */}
 
             {this.state.cardInfo.map(card => {
