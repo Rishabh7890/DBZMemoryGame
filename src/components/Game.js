@@ -99,7 +99,7 @@ class Game extends Component {
             })}
           </div>
           <footer className="sticky-bottom">
-              <div className="container-fluid">Created By Rishabh Goel Copyright &copy; 2019</div>
+              <div className="container-fluid">Created By Rishabh Goel Copyright &copy; 2019 </div>
             </footer>
         </div>
       </React.Fragment>
