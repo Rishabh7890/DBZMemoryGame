@@ -61,7 +61,7 @@
   },
   {
     "id": 11,
-    "image": "./images/beerus.png",
+    "image": "./images/beerus2.png",
     "name": "Beerus",
     "clicked": false
   },
@@ -91,20 +91,20 @@
   },
   {
     "id": 16,
-    "image": "./images/jiren.png",
+    "image": "./images/jiren2.png",
     "name": "Jiren",
     "clicked": false
   },
   {
     "id": 17,
-    "image": "./images/gogeta.png",
-    "name": "Gogeta",
+    "image": "./images/hercule.png",
+    "name": "Hercule",
     "clicked": false
   },
   {
     "id": 18,
-    "image": "./images/17.png",
-    "name": "17",
+    "image": "./images/supreme.png",
+    "name": "Supreme Kai",
     "clicked": false
   }
 ]

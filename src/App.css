@@ -1,0 +1,38 @@
+.scoreInfo {
+  font-weight: bold;
+  font-family: "Anime Ace";
+}
+
+.indvCard:last-of-type:hover {
+  cursor: pointer;
+}
+
+.initText {
+  font-family: "Anime Ace";
+}
+
+.jumboCust {
+  background-image: url("https://vignette.wikia.nocookie.net/dragonuniverse/images/c/cb/DragonBalls.png/revision/latest?cb=20170426092949");
+  background-color: rgb(75, 12, 75);
+  background-position: center;
+  background-blend-mode: color-burn; 
+  box-shadow: 0 0 20px black;
+  font-family: "Anime Ace";
+  height: 350px;
+}
+
+body {
+  /* background-image: url("https://vignette.wikia.nocookie.net/dragonball/images/f/f5/Sdwd.jpg/revision/latest?cb=20160501035020"); */
+
+  background-color: rgb(41, 21, 41);
+
+  /* background-blend-mode: multiply; */
+}
+
+footer {
+  margin-top: 50px;
+  font-size: .5rem;
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+}

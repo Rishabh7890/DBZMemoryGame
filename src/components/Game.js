@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import cardInfo from "../cards.json";
+import "../App.css";
 
 class Game extends Component {
   state = {
@@ -8,6 +9,7 @@ class Game extends Component {
     highScore: 0
   };
 
+  // method for handling click
   handleClick = cardId => {
     let isCorrect = false;
 
@@ -27,6 +29,7 @@ class Game extends Component {
       : this.handleIncorrectPick(cardInfo);
   };
 
+  // method for correct pick
   handleCorrectPick = cardInfo => {
     const shuffled = cardInfo.sort(() => 0.5 - Math.random());
 
@@ -45,6 +48,7 @@ class Game extends Component {
     });
   };
 
+  // method for incorrect pick to reset score 
   handleIncorrectPick = cardInfo => {
     const shuffled = cardInfo.sort(() => 0.5 - Math.random());
 
@@ -59,14 +63,14 @@ class Game extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-light bg-warning d-flex justify-space-between">
-          <span className="navbar-brand mb-0">Clicky Game</span>
-          <span className="scoreInfo text-dark">
+        <nav className="navbar navbar-light bg-dark d-flex justify-space-between">
+          <span className="navbar-brand mb-0 text-light initText">More Character sets coming soon!</span>
+          <span className="scoreInfo text-light">
             Current Score: {this.state.currentScore} || Your Highest Score:{" "}
             {this.state.highScore}
           </span>
         </nav>
-        <div className="jumbotron jumbotron-fluid bg-dark text-light text-center">
+        <div className="jumbotron jumbotron-fluid text-center text-light jumboCust">
           <h1>
             {" "}
             <img src="../images/dragonball.png" alt="db" /> Dragonball Z Memory
@@ -83,17 +87,20 @@ class Game extends Component {
 
             {this.state.cardInfo.map(card => {
               return (
-                <div className="col-12 col-sm-3 col-md-2" key={card.id}>
+                <div className="col-12 col-sm-3 col-md-2 my-3" key={card.id}>
                   <img
                     src={card.image}
                     alt={card.name}
-                    className="img-fluid img-thumbnail rounded"
+                    className="img-fluid img-thumbnail rounded indvCard bg-dark"
                     onClick={() => this.handleClick(card.id)}
                   />
                 </div>
               );
             })}
           </div>
+          <footer className="sticky-bottom">
+              <div className="container-fluid">Created By Rishabh Goel Copyright &copy; 2019</div>
+            </footer>
         </div>
       </React.Fragment>
     );
