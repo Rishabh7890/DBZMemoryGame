@@ -73,7 +73,7 @@ class Game extends Component {
         <div className="jumbotron jumbotron-fluid text-center text-light jumboCust">
           <h1>
             {" "}
-            <img src="../images/dragonball.png" alt="db" /> Dragonball Z Memory
+            <img src="../images/dragonball1.png" alt="db" /> Dragonball Z Memory
             Clicky Game
           </h1>
           <p>
