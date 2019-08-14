@@ -48,7 +48,7 @@ class Game extends Component {
     });
   };
 
-  // method for incorrect pick to reset score 
+  // method for incorrect pick to reset score
   handleIncorrectPick = cardInfo => {
     const shuffled = cardInfo.sort(() => 0.5 - Math.random());
 
@@ -64,7 +64,9 @@ class Game extends Component {
     return (
       <React.Fragment>
         <nav className="navbar navbar-light bg-dark d-flex justify-space-between">
-          <span className="navbar-brand mb-0 text-light initText">More Character sets coming soon!</span>
+          <span className="navbar-brand mb-0 text-light initText">
+            More Character sets coming soon!
+          </span>
           <span className="scoreInfo text-light">
             Current Score: {this.state.currentScore} || Your Highest Score:{" "}
             {this.state.highScore}
@@ -73,8 +75,11 @@ class Game extends Component {
         <div className="jumbotron jumbotron-fluid text-center text-light jumboCust">
           <h1>
             {" "}
-            <img src="https://user-images.githubusercontent.com/48387296/58568914-20e67e00-8203-11e9-90f8-f7725918a39b.png" alt="db" /> Dragonball Z Memory
-            Clicky Game
+            <img
+              src="https://user-images.githubusercontent.com/48387296/58568914-20e67e00-8203-11e9-90f8-f7725918a39b.png"
+              alt="db"
+            />{" "}
+            Dragonball Z Memory Clicky Game
           </h1>
           <p>
             Click on a card to start playing! Don't click on the same card twice
@@ -99,8 +104,10 @@ class Game extends Component {
             })}
           </div>
           <footer className="sticky-bottom">
-              <div className="container-fluid">Created By Rishabh Goel Copyright &copy; 2019 </div>
-            </footer>
+            <div className="container-fluid">
+              Created By Rishabh Goel Copyright &copy; 2019{" "}
+            </div>
+          </footer>
         </div>
       </React.Fragment>
     );
