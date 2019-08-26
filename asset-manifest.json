@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ClickyGame/static/css/main.a4e93e63.chunk.css",
-    "main.js": "/ClickyGame/static/js/main.597906b7.chunk.js",
-    "main.js.map": "/ClickyGame/static/js/main.597906b7.chunk.js.map",
-    "runtime~main.js": "/ClickyGame/static/js/runtime~main.1eb9bb0a.js",
-    "runtime~main.js.map": "/ClickyGame/static/js/runtime~main.1eb9bb0a.js.map",
-    "static/js/2.5996a945.chunk.js": "/ClickyGame/static/js/2.5996a945.chunk.js",
-    "static/js/2.5996a945.chunk.js.map": "/ClickyGame/static/js/2.5996a945.chunk.js.map",
-    "index.html": "/ClickyGame/index.html",
-    "precache-manifest.0e65a1d1e92839b0f32bcd1beca234ae.js": "/ClickyGame/precache-manifest.0e65a1d1e92839b0f32bcd1beca234ae.js",
-    "service-worker.js": "/ClickyGame/service-worker.js",
-    "static/css/main.a4e93e63.chunk.css.map": "/ClickyGame/static/css/main.a4e93e63.chunk.css.map"
+    "main.css": "/DBZMemoryGame/static/css/main.a4e93e63.chunk.css",
+    "main.js": "/DBZMemoryGame/static/js/main.9b0ff17e.chunk.js",
+    "main.js.map": "/DBZMemoryGame/static/js/main.9b0ff17e.chunk.js.map",
+    "runtime~main.js": "/DBZMemoryGame/static/js/runtime~main.cd9bb27f.js",
+    "runtime~main.js.map": "/DBZMemoryGame/static/js/runtime~main.cd9bb27f.js.map",
+    "static/js/2.5996a945.chunk.js": "/DBZMemoryGame/static/js/2.5996a945.chunk.js",
+    "static/js/2.5996a945.chunk.js.map": "/DBZMemoryGame/static/js/2.5996a945.chunk.js.map",
+    "index.html": "/DBZMemoryGame/index.html",
+    "precache-manifest.b2fd07d42ff16ce490250436fca31375.js": "/DBZMemoryGame/precache-manifest.b2fd07d42ff16ce490250436fca31375.js",
+    "service-worker.js": "/DBZMemoryGame/service-worker.js",
+    "static/css/main.a4e93e63.chunk.css.map": "/DBZMemoryGame/static/css/main.a4e93e63.chunk.css.map"
   }
 }
