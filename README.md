@@ -7,6 +7,9 @@
 * React
 * Node
 * ES6 Javascript
-* Github Pages
 
 ![screenshot](public/images/dbzScreenshot.png)
+
+#### More character sets from your favorite anime coming soon!
+
+#### Created By Rishabh Goel
